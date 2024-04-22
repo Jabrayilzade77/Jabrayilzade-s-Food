@@ -1,0 +1,192 @@
+/* nav-container end */
+
+header {
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  background-color: rgb(44, 62, 80);
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(116, 117, 117);
+}
+
+.nav_container {
+  color: #ffffff;
+  font-family: "Segoe UI";
+  width: 100%;
+  height: 65px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  font-size: 20px;
+  left: 50%;
+  // padding-left: 50px;
+  // padding-right: 50px;
+  transform: translateX(-50%);
+  background-color: #5b108d;
+  z-index: 1;
+}
+.hidden_container1.change_hidden{
+  display: block;
+
+}
+
+.change_hidden {
+  margin-top: 60px;
+  background-color: red;
+  display: none;
+
+}
+.hidden_container2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+}
+
+.bootstrap {
+}
+.bootstrap a {
+  color: #fff9f9;
+  // font-size: 20px;
+  // margin-left: 10px;
+}
+.bootstrap h1 {
+  display: flex;
+  font-weight: 400;
+  font-family: system-ui;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-left: 86px;
+}
+.bootstrap a:hover {
+  color: #ffffff;
+}
+.portfolio {
+  display: flex;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-right: 30px;
+}
+
+.portfolio a {
+  color: rgba(255, 255, 255, 0.55);
+  display: flex;
+  // padding: 11px;
+  font-size: 20px;
+  font-family: system-ui;
+  letter-spacing: 1px;
+  margin-right: 13px;
+
+  // gap: 44px;
+}
+.dark_mode{
+  font-size: 20px;
+  letter-spacing: 1px;
+  // color: rgba(255, 255, 255, 0.55);
+  background-color: #5b108d;
+  display: flex;
+  // margin-top: 4px;
+
+}
+.dark_mode:hover{
+  color: #c4c2c2;
+
+}
+.portfolio a:hover {
+  color: #c4c2c2;
+}
+.bootstrap:hover {
+  color: #969191;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(44, 62, 80);
+}
+
+img {
+  width: 100%;
+}
+
+.hidden {
+  border: 1px solid #212529;
+  border-radius: 5px;
+  display: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-sizing: content-box;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  height: 50px;
+  color: black;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  display: flex;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .portfolio {
+    color: #ffffff;
+    display: none;
+    padding: 16px;
+    gap: 8px;
+  }
+
+  .bootstrap a {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: system-ui;
+  }
+  .bootstrap h1 {
+    margin-left: 10px;
+  }
+  .hidden {
+    display: flex;
+    height: 45px;
+    width: 50px;
+    margin: 20px;
+    background-color: #474747;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+      "Noto Color Emoji";
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    padding: 12.8px;
+    transform: translateX(-20%);
+    // border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+  }
+}

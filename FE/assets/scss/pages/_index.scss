@@ -1,0 +1,284 @@
+.black{
+  background-color: black;
+  color: white;
+}
+.suggets {
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: "Caveat", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.hr_suggets {
+  width: 300px;
+  height: 5px;
+  margin-top: 5px;
+  background-color: red;
+}
+.bucket_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  //   justify-content: space-between;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.bucket_l,
+.bucket_s,
+.bucket_m,
+.bucket_duet {
+  max-width: 300px;
+  min-height: 500px;
+  border-radius: 7px;
+  box-shadow: 1px 0 20px 1px rgba(160, 160, 160, 0.5);
+  border: 0px solid black;
+}
+.w3-button{
+  font-size: 40px;
+}
+.bucket_img {
+  width: 100%;
+  max-width: 300px;
+  min-height: 300px;
+  border-radius: 7px;
+}
+.header_container {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.title {
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 5px;
+}
+.description {
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  width: 80%;
+  max-width: 250px;
+  height: 40px;
+  font-weight: 800;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+button {
+  cursor: pointer;
+}
+.all_suggestions {
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.btn_all_suggestions {
+  background-color: red;
+  color: white;
+  font-family: "Madimi One", sans-serif;
+  width: 100%;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  font-weight: 800;
+}
+.btn_card1 {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.btn_card2 {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  align-items: center;
+}
+.section_back {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+  padding: 20px;
+}
+.chicken_became {
+  margin: 20px;
+  font-size: 30px;
+  font-family: "Caveat", cursive;;
+  color: white;
+}
+.back_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://banker.az/wp-content/uploads/2023/08/1_BhRgbo5Ac1ZjGE1g5rhL8g.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+}
+.widgets_rate {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.back_widget_img1 {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  max-width: 500px;
+  min-height: 350px;
+  background-image:
+  linear-gradient(to bottom, rgba(2, 2, 2, 0.40), rgba(14, 14, 14, 0.40)),
+  url('https://www.kfc-az.com/admin/files/4104.jpeg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  border-radius: 5px;
+}
+.back_widget_img2 {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  max-width: 500px;
+  min-height: 350px;
+  background-image:
+  linear-gradient(to bottom, rgba(2, 2, 2, 0.40), rgba(14, 14, 14, 0.40)),
+  url('https://www.kfc-az.com/admin/files/4138.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.widget_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 78px;
+  color: white;
+}
+.widget_content h2 {
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.widget_content p {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.delivery_container {
+  max-width: 1350px;
+  width: 100%;
+  min-height: 550px;
+}
+.back_delivery {
+  background-image: url("	https://www.kfc-az.com/dist/images/aggregators-bg.jpeg");
+  z-index: -1;
+  background-size: cover;
+  min-height: 500px;
+  background-color: rgba(0, 0, 0, 0.63);
+}
+.phone_img {
+  padding-top: 30px;
+  max-width: 430px;
+  min-height: 500px;
+}
+.yusif {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.information_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.kfc_logo_number{
+    margin-left: 100px;
+}
+.inf_need_follow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    padding-right: 10px;
+}
+.inf_need_follow_title{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Madimi One", sans-serif;
+
+}
+
+.text_inf{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.icon i{
+    font-size: 25px;
+}
+

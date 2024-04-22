@@ -1,0 +1,152 @@
+{
+  "burger": [
+    {
+      "id" : 1,
+      "img": "https://www.kfc-az.com/admin/files/5400.jpg",
+      "title": "ORIGINAL",
+      "description": "Creamy sauce, chicken fillet in unique breading, iceberg salad and tomatoes on wheat bun with black and white seasam seeds",
+      "price": 4.9
+    },
+    {
+      "id" : 2,
+      "img": "https://www.kfc-az.com/admin/files/5401.jpg",
+      "title": "CHEFBURGER SPICY",
+      "description": " Hot chicken, fresh salad, onion, sauce Burger, crispy pickles and appetizing bun with black and white sesame seeds.",
+      "price": 4.9
+    },
+    {
+      "id" : 3,
+      "img": "https://www.kfc-az.com/admin/files/5412.jpg",
+      "title": "СHEESEBURGER",
+      "description": "   Mustar sauce, ketchup, 2 original strips, onion, cheddar cheese, cucumbers on a wheat bun with seasame seeds",
+      "price": 3.9
+    },
+    {
+      "id" : 4,
+      "img": "https://www.kfc-az.com/admin/files/4174.jpg",
+      "title": "LONGER SPECIAL",
+      "description": "Wheat bun, juicy hot drink bites fillet in breading, pickles, onion, light mayonnaise and mustard sauce seame seeds ",
+      "price": 2.3
+    }
+  ],
+  "french_fries": [
+    {
+      "id" : 1,
+      "img": "https://www.kfc-az.com/admin/files/5402.jpg",
+      "title": "Fries S",
+      "description": "Our big chunks have kept even more of the way your favorite French fries taste. It is crumby inside and have tasty crispy crust.",
+      "Price": 2.9
+    },
+    {
+      "id" : 2,
+      "img": "https://www.kfc-az.com/admin/files/5403.jpg",
+      "title": "Fries M",
+      "description": " Our big chunks have kept even more of the way your favorite French fries taste. It is crumby inside and have tasty crispy crust.",
+      "Price": 3.9
+    },
+    {
+      "id" : 3,
+      "img": "https://www.kfc-az.com/admin/files/5394.jpg",
+      "title": "Basket Fries",
+      "description": "Our big chunks have kept even more of the way your favorite French fries taste. It is crumby inside and have tasty crispy crust.",
+      "Price": 4.9
+    },
+    {
+      "id" : 4,
+      "img": "https://www.kfc-az.com/admin/files/5410.jpg",
+      "title": "Wedges S",
+      "description": "This so crispy, tasty and beloved flavor is now in KFC!French fries taste. It is crumby inside and have tasty crispy crust",
+      "Price": 3.5
+    }
+  ],
+  "sauces": [
+    {
+      "id" : 1,
+      "img": "https://www.kfc-az.com/admin/files/5406.jpg",
+      "title": "TOMATO KETCHUP",
+      "description": "Tomato Ketchup",
+      "Price": 0.7
+    },
+    {
+      "id" : 2,
+      "img": "https://www.kfc-az.com/admin/files/4220.jpg",
+      "title": "BBQ Sauce",
+      "description": "BBQ Sauce",
+      "Price": 0.7
+    },
+    {
+      "id" : 3,
+      "img": "https://www.kfc-az.com/admin/files/5404.jpg",
+      "title": "GARLIC SAUCE",
+      "description": "Garlic Sauce",
+      "Price":  0.7
+    },
+    {
+      "id" : 4,
+      "img": "https://www.kfc-az.com/admin/files/5397.jpg",
+      "title": "CHEESE SAUCE",
+      "description": "Cheese Sauce",
+      "Price": 0.7
+    }
+  ],
+  "cold_drinks": [
+    {
+      "id" : 1,
+      "img": "https://www.kfc-az.com/admin/files/5415.png",
+      "title": "COCA-COLA 0.3 L",
+      "description": "Coca-Cola 0.3 L ",
+      "Price": 1.7
+    },
+    {
+      "id" : 2,
+      "img": "https://kfc.ee/wp-content/uploads/2022/09/CocaColaZero.png",
+      "title": "COCA-COLA ZERO 0.3L",
+      "description": "Coca-Cola Zero 0.3 L",
+      "Price": 1.7
+    },
+    {
+      "id" : 3,
+      "img": "https://kfc.ee/wp-content/uploads/2022/09/Sprite.png",
+      "title": "SPRITE 0.3 L",
+      "description": "Sprite 0.3 L",
+      "Price":  1.7
+    },
+    {
+      "id" : 4,
+      "img": "https://kfc.ee/wp-content/uploads/2022/09/Fanta.png",
+      "title": "FANTA 0.3 L",
+      "description": "Fanta 0.3 L",
+      "Price":  1.7
+    }
+  ],
+  "hot_drinks": [
+    {
+      "id" : 1,
+      "img": "https://www.kfc-az.com/admin/files/4227.jpg",
+      "title": "BLACK TEA 0.2 L",
+      "description": "Black Tea 0.2 L",
+      "Price": 1.4
+    },
+    {
+      "id" : 2,
+      "img": "https://www.kfc-az.com/admin/files/4228.jpg",
+      "title": "GREEN TEA 0.2 Le",
+      "description": "Green Tea 0.2 L",
+      "Price": 1.4
+    },
+    {
+      "id" : 3,
+      "img": "https://www.kfc-az.com/admin/files/4229.jpg",
+      "title": "ESPRESSO",
+      "description": "Espresso",
+      "Price":  2.4
+    },
+    {
+      "id" : 4,
+      "img": "https://www.kfc-az.com/admin/files/4230.jpg",
+      "title": "AMERICANO 0,2",
+      "description": "Americano 0,2 L",
+      "Price": 2.9
+    }
+  ]
+}
